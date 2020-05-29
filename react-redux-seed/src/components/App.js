@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
+import TodosPage from './pages/Todos';
 import { useStyles } from './App.styles';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <Container maxWidth="sm" className={classes.app}>
-      TODO List
+      <TodosPage />
     </Container>
   );
 }
