@@ -10,16 +10,8 @@ export const STYLE = {
     }
   },
   COLOR: {
-    PRIMARY: '#38A66C',
-    PRIMARY_SECOND: '#37A66C',
+    PRIMARY: '#1d69a6',
     SECONDARY: '#414141',
-    SECONDARY_DARKER: '#444444',
-    TERTIARY: '#E7ECFA',
-    QUATERNARY: '#9FA7BC',
-    QUINARY: '#F6F6F6',
-    QUINARY_LIGHTER: '#F5F5F5',
-    SENARY: '#414141',
-    SEPTENARY: '#999999',
     BLACK: '#000000',
     WHITE: '#FFF',
     LIGHT_GRAY: '#EEEEEE',
@@ -30,8 +22,7 @@ export const STYLE = {
     GREEN_LIGHT: '#00AA66'
   },
   HEADER: {
-    HEIGHT: '80px',
-    SPACER_HEIGHT: '80px'
+    HEIGHT: '80px'
   },
   SIDEBAR: {
     WIDTH: '80px'
@@ -40,7 +31,19 @@ export const STYLE = {
 
 export const theme = createMuiTheme({
   typography: {
-    fontFamily: ['Hind'].join(',')
+    fontFamily: [
+      '-apple-system',
+      'BlinkMacSystemFont',
+      'Segoe UI',
+      'Roboto',
+      'Oxygen',
+      ' Ubuntu',
+      'Cantarell',
+      'Fira Sans',
+      'Droid Sans',
+      'Helvetica Neue',
+      'sans-serif'
+    ].join(',')
   },
   palette: {
     primary: {
