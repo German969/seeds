@@ -1,15 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import Checkbox from "@material-ui/core/Checkbox";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListItem from "@material-ui/core/ListItem";
 import { useStyles } from "./Task.styles";
 
-const Task = ({todo, onClick}) => {
+const Task = ({ todo, onClick }) => {
   const classes = useStyles();
   const labelId = `checkbox-list-label-${todo.id}`;
-  const todoClassName = todo.completed ? classes.completed : '';
+  const todoClassName = todo.completed ? classes.completed : "";
 
   return (
     <ListItem key={todo.id} dense button onClick={() => onClick(todo.id)}>
@@ -19,10 +19,14 @@ const Task = ({todo, onClick}) => {
           checked={todo.completed}
           tabIndex={-1}
           disableRipple
-          inputProps={{ 'aria-labelledby': labelId }}
+          inputProps={{ "aria-labelledby": labelId }}
         />
       </ListItemIcon>
-      <ListItemText id={labelId} primary={todo.title} className={todoClassName} />
+      <ListItemText
+        id={labelId}
+        primary={todo.title}
+        className={todoClassName}
+      />
     </ListItem>
   );
 };
@@ -31,9 +35,9 @@ Task.propTypes = {
   todo: PropTypes.shape({
     id: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
-    completed: PropTypes.bool.isRequired
+    completed: PropTypes.bool.isRequired,
   }),
-  onClick: PropTypes.func
-}
+  onClick: PropTypes.func,
+};
 
 export default Task;

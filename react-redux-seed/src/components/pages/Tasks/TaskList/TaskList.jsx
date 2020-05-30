@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import Paper from "@material-ui/core/Paper";
 import List from "@material-ui/core/List";
 import Task from "../Task";
-import { useStyles } from './TaskList.styles.js';
+import { useStyles } from "./TaskList.styles.js";
 
 const TaskList = ({ loading, tasks, onTaskChange }) => {
   const classes = useStyles();
@@ -18,7 +18,9 @@ const TaskList = ({ loading, tasks, onTaskChange }) => {
   return (
     <Paper>
       <List>
-        {tasks.map(todo => <Task todo={todo} onClick={onTaskChange} />)}
+        {tasks.map((todo) => (
+          <Task todo={todo} onClick={onTaskChange} />
+        ))}
       </List>
     </Paper>
   );
