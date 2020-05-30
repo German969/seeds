@@ -4,7 +4,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import Checkbox from '@material-ui/core/Checkbox';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItem from '@material-ui/core/ListItem';
-import { useStyles } from './Task.styles';
+import useStyles from './Task.styles';
 
 const Task = ({ todo, onClick }) => {
   const classes = useStyles();

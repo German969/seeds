@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const apiUrl = 'https://jsonplaceholder.typicode.com';
 
-export class ApiService {
+export default class ApiService {
   static getTodos() {
     return this.request('todos/?_limit=10', { method: 'get' });
   }

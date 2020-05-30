@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 
-export const useStyles = makeStyles({
+export default makeStyles({
   app: {
     textAlign: 'center',
     marginTop: 20

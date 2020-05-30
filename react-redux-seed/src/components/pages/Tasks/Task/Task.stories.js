@@ -31,4 +31,4 @@ export const completedTaskData = {
 
 export const Default = () => <Task {...taskData} />;
 
-export const Completed = () => <Task t {...completedTaskData} />;
+export const Completed = () => <Task {...completedTaskData} />;
