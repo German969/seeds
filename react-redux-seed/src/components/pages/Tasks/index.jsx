@@ -1,10 +1,10 @@
 import React from 'react';
-import TodoList from "./TodoList";
+import TaskList from "./TaskList";
 
 const TodoPage = () => {
   return (
     <>
-      <TodoList/>
+      <TaskList />
     </>
   );
 };

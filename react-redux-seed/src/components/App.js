@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
-import TodosPage from './pages/Todos';
+import TodosPage from './pages/Tasks';
 import { useStyles } from './App.styles';
 
 function App() {
