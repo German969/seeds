@@ -1,8 +1,8 @@
-import React from "react";
-import Container from "@material-ui/core/Container";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import TodosPage from "./pages/Tasks";
-import { useStyles } from "./App.styles";
+import React from 'react';
+import Container from '@material-ui/core/Container';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import TodosPage from './pages/Tasks';
+import { useStyles } from './App.styles';
 
 function App() {
   const classes = useStyles();

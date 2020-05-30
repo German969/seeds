@@ -1,8 +1,9 @@
-import React from "react";
-import Paper from "@material-ui/core/Paper";
-import List from "@material-ui/core/List";
-import Task from "../Task";
-import { useStyles } from "./TaskList.styles.js";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Paper from '@material-ui/core/Paper';
+import List from '@material-ui/core/List';
+import Task from '../Task';
+import { useStyles } from './TaskList.styles';
 
 const TaskList = ({ loading, tasks, onTaskChange }) => {
   const classes = useStyles();
@@ -24,6 +25,22 @@ const TaskList = ({ loading, tasks, onTaskChange }) => {
       </List>
     </Paper>
   );
+};
+
+TaskList.propTypes = {
+  loading: PropTypes.bool,
+  tasks: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      title: PropTypes.string,
+      completed: PropTypes.bool
+    })
+  ).isRequired,
+  onTaskChange: PropTypes.func.isRequired
+};
+
+TaskList.defaultProps = {
+  loading: false
 };
 
 export default TaskList;
