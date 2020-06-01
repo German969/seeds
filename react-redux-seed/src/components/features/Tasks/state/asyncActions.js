@@ -1,7 +1,7 @@
 import ApiService from "../../../../services/ApiService";
-import actions from "./actions";
+import { reducer } from "./reducer";
 
-const { initialize } = actions;
+const { initialize } = reducer.actions;
 
 const asyncActions = {
   fetchTasks: () => dispatch => {

@@ -1,20 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import TaskList from './TaskList';
-import { selectAll, fetchTasks } from '../state';
+import { selectAll, fetchTasks, toggle } from '../state';
 
 const TaskListContainer = () => {
-  const [todos, setTodos] = useState([]);
   const tasks = useSelector(selectAll);
   const dispatch = useDispatch();
   const [loading, setLoading] = useState(true);
 
   const toggleTodo = (id) => {
-    setTodos(
-      todos.map((todo) => {
-        return todo.id === id ? { ...todo, completed: !todo.completed } : todo;
-      })
-    );
+    dispatch(toggle(id));
   };
 
   useEffect(() => {

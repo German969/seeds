@@ -4,7 +4,7 @@ const apiUrl = 'https://jsonplaceholder.typicode.com';
 
 export default class ApiService {
   static getTodos() {
-    return this.request('todos/?_limit=10', { method: 'get' });
+    return this.request('todos', { method: 'get' });
   }
 
   static request(path, options) {

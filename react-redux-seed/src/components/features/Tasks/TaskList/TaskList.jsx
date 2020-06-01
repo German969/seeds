@@ -19,7 +19,7 @@ const TaskList = ({ loading, tasks, onTaskChange }) => {
   return (
     <Paper>
       <List>
-        {tasks.map((todo) => (
+        {tasks.slice(0, 20).map((todo) => (
           <TaskItem todo={todo} onClick={onTaskChange} />
         ))}
       </List>
