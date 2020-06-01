@@ -10,13 +10,13 @@ export default {
 };
 
 export const defaultTasksData = [
-  { id: 1, title: 'Task 1', completed: false },
-  { id: 2, title: 'Task 2', completed: false },
-  { id: 3, title: 'Task 3', completed: false }
+  { id: 1, title: 'TaskItem 1', completed: false },
+  { id: 2, title: 'TaskItem 2', completed: false },
+  { id: 3, title: 'TaskItem 3', completed: false }
 ];
 
 export const withCompletedTasksData = [
-  { id: 1, title: 'Task 1', completed: true },
+  { id: 1, title: 'TaskItem 1', completed: true },
   ...defaultTasksData.slice(1, 3)
 ];
 

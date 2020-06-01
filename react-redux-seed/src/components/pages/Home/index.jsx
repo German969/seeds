@@ -1,5 +1,5 @@
 import React from 'react';
-import TaskList from './TaskList';
+import TaskList from '../../features/Tasks/TaskList';
 
 const TodoPage = () => {
   return (

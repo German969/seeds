@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Task Completed 1`] = `
+exports[`Storyshots TaskItem Completed 1`] = `
 <div
   aria-disabled={false}
   className="MuiButtonBase-root MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-button"
@@ -70,13 +70,13 @@ exports[`Storyshots Task Completed 1`] = `
     <span
       className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
     >
-      Task 1
+      TaskItem 1
     </span>
   </div>
 </div>
 `;
 
-exports[`Storyshots Task Default 1`] = `
+exports[`Storyshots TaskItem Default 1`] = `
 <div
   aria-disabled={false}
   className="MuiButtonBase-root MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-button"
@@ -146,7 +146,7 @@ exports[`Storyshots Task Default 1`] = `
     <span
       className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
     >
-      Task 1
+      TaskItem 1
     </span>
   </div>
 </div>

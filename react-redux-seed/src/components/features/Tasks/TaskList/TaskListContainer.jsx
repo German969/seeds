@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import ApiService from '../../../../services/ApiService';
+import { useSelector, useDispatch } from 'react-redux';
 import TaskList from './TaskList';
+import { selectAll, fetchTasks } from '../state';
 
 const TaskListContainer = () => {
   const [todos, setTodos] = useState([]);
+  const tasks = useSelector(selectAll);
+  const dispatch = useDispatch();
   const [loading, setLoading] = useState(true);
 
   const toggleTodo = (id) => {
@@ -15,13 +18,11 @@ const TaskListContainer = () => {
   };
 
   useEffect(() => {
-    ApiService.getTodos().then((data) => {
-      setTodos(data);
-      setLoading(false);
-    });
-  }, []);
+    dispatch(fetchTasks());
+    setLoading(false);
+  }, [dispatch]);
 
-  return <TaskList tasks={todos} loading={loading} onTaskChange={toggleTodo} />;
+  return <TaskList tasks={tasks} loading={loading} onTaskChange={toggleTodo} />;
 };
 
 export default TaskListContainer;

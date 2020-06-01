@@ -4,9 +4,9 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import Checkbox from '@material-ui/core/Checkbox';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItem from '@material-ui/core/ListItem';
-import useStyles from './Task.styles';
+import useStyles from './TaskItem.styles';
 
-const Task = ({ todo, onClick }) => {
+const TaskItem = ({ todo, onClick }) => {
   const classes = useStyles();
   const labelId = `checkbox-list-label-${todo.id}`;
   const todoClassName = todo.completed ? classes.completed : '';
@@ -31,7 +31,7 @@ const Task = ({ todo, onClick }) => {
   );
 };
 
-Task.propTypes = {
+TaskItem.propTypes = {
   todo: PropTypes.shape({
     id: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
@@ -40,4 +40,4 @@ Task.propTypes = {
   onClick: PropTypes.func.isRequired
 };
 
-export default Task;
+export default TaskItem;

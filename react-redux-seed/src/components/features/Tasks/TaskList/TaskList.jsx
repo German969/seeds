@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Paper from '@material-ui/core/Paper';
 import List from '@material-ui/core/List';
-import Task from '../Task';
+import TaskItem from '../TaskItem';
 import useStyles from './TaskList.styles';
 
 const TaskList = ({ loading, tasks, onTaskChange }) => {
@@ -20,7 +20,7 @@ const TaskList = ({ loading, tasks, onTaskChange }) => {
     <Paper>
       <List>
         {tasks.map((todo) => (
-          <Task todo={todo} onClick={onTaskChange} />
+          <TaskItem todo={todo} onClick={onTaskChange} />
         ))}
       </List>
     </Paper>
