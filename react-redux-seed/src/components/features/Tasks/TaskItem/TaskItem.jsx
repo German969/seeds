@@ -26,6 +26,7 @@ const TaskItem = ({ todo, onClick }) => {
         id={labelId}
         primary={todo.title}
         className={todoClassName}
+        data-testid="task-item-text"
       />
     </ListItem>
   );
