@@ -1,9 +1,9 @@
-import {reducer} from "./reducer";
+import { slice } from "./reducer";
 import asyncActions from "./asyncActions";
 import taskSelectors from "./selectors";
 
-export const { toggle } = reducer.actions;
+export const { toggle } = slice.actions;
 
 export const { fetchTasks } = asyncActions;
 
-export const { selectAll } = taskSelectors;
+export const { selectAllTasks, selectTaskErrors } = taskSelectors;

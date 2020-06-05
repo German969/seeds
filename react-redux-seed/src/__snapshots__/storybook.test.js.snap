@@ -2,106 +2,186 @@
 
 exports[`Storyshots TaskItem Completed 1`] = `
 <div
-  aria-disabled={false}
-  className="MuiButtonBase-root MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-button"
-  onBlur={[Function]}
-  onClick={[Function]}
-  onDragLeave={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  role="button"
-  tabIndex={0}
+  style={
+    Object {
+      "border": "1px solid #ccc",
+    }
+  }
 >
   <div
-    className="MuiListItemIcon-root"
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
   >
-    <span
-      aria-disabled={false}
-      className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-7 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-8 Mui-checked MuiIconButton-colorSecondary MuiIconButton-edgeStart"
-      onBlur={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex={null}
+    <div
+      className="MuiListItemIcon-root"
     >
       <span
-        className="MuiIconButton-label"
+        aria-disabled={false}
+        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-7 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-8 Mui-checked MuiIconButton-colorSecondary MuiIconButton-edgeStart"
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={null}
       >
-        <input
-          aria-labelledby="checkbox-list-label-1"
-          checked={true}
-          className="PrivateSwitchBase-input-10"
-          data-indeterminate={false}
-          onChange={[Function]}
-          tabIndex={-1}
-          type="checkbox"
-        />
-        <svg
-          aria-hidden={true}
-          className="MuiSvgIcon-root"
-          focusable="false"
-          viewBox="0 0 24 24"
+        <span
+          className="MuiIconButton-label"
         >
-          <path
-            d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+          <input
+            aria-labelledby="checkbox-list-label-1"
+            checked={true}
+            className="PrivateSwitchBase-input-10"
+            data-indeterminate={false}
+            onChange={[Function]}
+            tabIndex={-1}
+            type="checkbox"
           />
-        </svg>
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+            />
+          </svg>
+        </span>
       </span>
-    </span>
-  </div>
-  <div
-    className="MuiListItemText-root makeStyles-completed-6 MuiListItemText-dense"
-    id="checkbox-list-label-1"
-  >
-    <span
-      className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
+    </div>
+    <div
+      className="MuiListItemText-root makeStyles-completed-6 MuiListItemText-dense"
+      data-testid="task-item-text"
+      id="checkbox-list-label-1"
     >
-      TaskItem 1
-    </span>
+      <span
+        className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
+      >
+        TaskItem 1
+      </span>
+    </div>
   </div>
 </div>
 `;
 
 exports[`Storyshots TaskItem Default 1`] = `
 <div
-  aria-disabled={false}
-  className="MuiButtonBase-root MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-button"
-  onBlur={[Function]}
-  onClick={[Function]}
-  onDragLeave={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  role="button"
-  tabIndex={0}
+  style={
+    Object {
+      "border": "1px solid #ccc",
+    }
+  }
 >
   <div
-    className="MuiListItemIcon-root"
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
   >
-    <span
+    <div
+      className="MuiListItemIcon-root"
+    >
+      <span
+        aria-disabled={false}
+        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-2 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary MuiIconButton-edgeStart"
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={null}
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <input
+            aria-labelledby="checkbox-list-label-1"
+            checked={false}
+            className="PrivateSwitchBase-input-5"
+            data-indeterminate={false}
+            onChange={[Function]}
+            tabIndex={-1}
+            type="checkbox"
+          />
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+        </span>
+      </span>
+    </div>
+    <div
+      className="MuiListItemText-root MuiListItemText-dense"
+      data-testid="task-item-text"
+      id="checkbox-list-label-1"
+    >
+      <span
+        className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
+      >
+        TaskItem 1
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TaskList Default 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <ul
+    className="MuiList-root MuiList-padding"
+  >
+    <div
       aria-disabled={false}
-      className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-2 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary MuiIconButton-edgeStart"
+      className="MuiButtonBase-root MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-button"
       onBlur={[Function]}
+      onClick={[Function]}
       onDragLeave={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
@@ -112,216 +192,462 @@ exports[`Storyshots TaskItem Default 1`] = `
       onTouchEnd={[Function]}
       onTouchMove={[Function]}
       onTouchStart={[Function]}
-      tabIndex={null}
+      role="button"
+      tabIndex={0}
     >
-      <span
-        className="MuiIconButton-label"
+      <div
+        className="MuiListItemIcon-root"
       >
-        <input
-          aria-labelledby="checkbox-list-label-1"
-          checked={false}
-          className="PrivateSwitchBase-input-5"
-          data-indeterminate={false}
-          onChange={[Function]}
-          tabIndex={-1}
-          type="checkbox"
-        />
-        <svg
-          aria-hidden={true}
-          className="MuiSvgIcon-root"
-          focusable="false"
-          viewBox="0 0 24 24"
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-14 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary MuiIconButton-edgeStart"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
         >
-          <path
-            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
-          />
-        </svg>
-      </span>
-    </span>
-  </div>
-  <div
-    className="MuiListItemText-root MuiListItemText-dense"
-    id="checkbox-list-label-1"
-  >
-    <span
-      className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              aria-labelledby="checkbox-list-label-1"
+              checked={false}
+              className="PrivateSwitchBase-input-17"
+              data-indeterminate={false}
+              onChange={[Function]}
+              tabIndex={-1}
+              type="checkbox"
+            />
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+              />
+            </svg>
+          </span>
+        </span>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+        data-testid="task-item-text"
+        id="checkbox-list-label-1"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
+        >
+          TaskItem 1
+        </span>
+      </div>
+    </div>
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
     >
-      TaskItem 1
-    </span>
-  </div>
+      <div
+        className="MuiListItemIcon-root"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-14 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary MuiIconButton-edgeStart"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              aria-labelledby="checkbox-list-label-2"
+              checked={false}
+              className="PrivateSwitchBase-input-17"
+              data-indeterminate={false}
+              onChange={[Function]}
+              tabIndex={-1}
+              type="checkbox"
+            />
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+              />
+            </svg>
+          </span>
+        </span>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+        data-testid="task-item-text"
+        id="checkbox-list-label-2"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
+        >
+          TaskItem 2
+        </span>
+      </div>
+    </div>
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-14 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary MuiIconButton-edgeStart"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              aria-labelledby="checkbox-list-label-3"
+              checked={false}
+              className="PrivateSwitchBase-input-17"
+              data-indeterminate={false}
+              onChange={[Function]}
+              tabIndex={-1}
+              type="checkbox"
+            />
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+              />
+            </svg>
+          </span>
+        </span>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+        data-testid="task-item-text"
+        id="checkbox-list-label-3"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
+        >
+          TaskItem 3
+        </span>
+      </div>
+    </div>
+  </ul>
 </div>
 `;
 
-exports[`Storyshots Welcome to Storybook 1`] = `
-<article
-  style={
-    Object {
-      "backgroundColor": "#fff",
-      "color": "#000",
-      "fontFamily": "\\"Helvetica Neue\\", Helvetica, \\"Segoe UI\\", Arial, freesans, sans-serif",
-      "lineHeight": 1.4,
-      "padding": 15,
-    }
-  }
+exports[`Storyshots TaskList Empty 1`] = `
+<div
+  className="makeStyles-emptyList-28"
 >
-  <h1>
-    Welcome to storybook
-  </h1>
-  <p>
-    This is a UI component dev environment for your app.
-  </p>
-  <p>
-    We've added some basic stories inside the 
-    <code
-      style={
-        Object {
-          "backgroundColor": "#f3f2f2",
-          "border": "1px solid #eae9e9",
-          "borderRadius": 4,
-          "color": "#3a3a3a",
-          "fontSize": 15,
-          "fontWeight": 600,
-          "padding": "2px 5px",
-        }
-      }
-    >
-      src/stories
-    </code>
-     directory.
-    <br />
-    A story is a single state of one or more UI components. You can have as many stories as you want.
-    <br />
-    (Basically a story is like a visual test case.)
-  </p>
-  <p>
-    See these sample 
-    <button
-      onClick={[Function]}
-      style={
-        Object {
-          "backgroundColor": "transparent",
-          "borderBottom": "1px solid #1474f3",
-          "borderLeft": "none",
-          "borderRight": "none",
-          "borderTop": "none",
-          "color": "#1474f3",
-          "cursor": "pointer",
-          "font": "inherit",
-          "padding": 0,
-          "paddingBottom": 2,
-          "textDecoration": "none",
-        }
-      }
-      type="button"
-    >
-      stories
-    </button>
-     for a component called 
-    <code
-      style={
-        Object {
-          "backgroundColor": "#f3f2f2",
-          "border": "1px solid #eae9e9",
-          "borderRadius": 4,
-          "color": "#3a3a3a",
-          "fontSize": 15,
-          "fontWeight": 600,
-          "padding": "2px 5px",
-        }
-      }
-    >
-      Button
-    </code>
-    .
-  </p>
-  <p>
-    Just like that, you can add your own components as stories.
-    <br />
-    You can also edit those components and see changes right away.
-    <br />
-    (Try editing the 
-    <code
-      style={
-        Object {
-          "backgroundColor": "#f3f2f2",
-          "border": "1px solid #eae9e9",
-          "borderRadius": 4,
-          "color": "#3a3a3a",
-          "fontSize": 15,
-          "fontWeight": 600,
-          "padding": "2px 5px",
-        }
-      }
-    >
-      Button
-    </code>
-     stories located at 
-    <code
-      style={
-        Object {
-          "backgroundColor": "#f3f2f2",
-          "border": "1px solid #eae9e9",
-          "borderRadius": 4,
-          "color": "#3a3a3a",
-          "fontSize": 15,
-          "fontWeight": 600,
-          "padding": "2px 5px",
-        }
-      }
-    >
-      src/stories/1-Button.stories.js
-    </code>
-    .)
-  </p>
-  <p>
-    Usually we create stories with smaller UI components in the app.
-    <br />
-    Have a look at the 
-    <a
-      href="https://storybook.js.org/basics/writing-stories"
-      rel="noopener noreferrer"
-      style={
-        Object {
-          "borderBottom": "1px solid #1474f3",
-          "color": "#1474f3",
-          "paddingBottom": 2,
-          "textDecoration": "none",
-        }
-      }
-      target="_blank"
-    >
-      Writing Stories
-    </a>
-     section in our documentation.
-  </p>
-  <p
-    style={
-      Object {
-        "opacity": 0.5,
-      }
-    }
+  Empty
+</div>
+`;
+
+exports[`Storyshots TaskList Loading 1`] = `
+<div
+  className="makeStyles-loading-25"
+>
+  Loading...
+</div>
+`;
+
+exports[`Storyshots TaskList With Completed Tasks 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <ul
+    className="MuiList-root MuiList-padding"
   >
-    <b>
-      NOTE:
-    </b>
-    <br />
-    Have a look at the 
-    <code
-      style={
-        Object {
-          "backgroundColor": "#f3f2f2",
-          "border": "1px solid #eae9e9",
-          "borderRadius": 4,
-          "color": "#3a3a3a",
-          "fontSize": 15,
-          "fontWeight": 600,
-          "padding": "2px 5px",
-        }
-      }
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
     >
-      .storybook/webpack.config.js
-    </code>
-     to add webpack loaders and plugins you are using in this project.
-  </p>
-</article>
+      <div
+        className="MuiListItemIcon-root"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-21 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-22 Mui-checked MuiIconButton-colorSecondary MuiIconButton-edgeStart"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              aria-labelledby="checkbox-list-label-1"
+              checked={true}
+              className="PrivateSwitchBase-input-24"
+              data-indeterminate={false}
+              onChange={[Function]}
+              tabIndex={-1}
+              type="checkbox"
+            />
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+              />
+            </svg>
+          </span>
+        </span>
+      </div>
+      <div
+        className="MuiListItemText-root makeStyles-completed-20 MuiListItemText-dense"
+        data-testid="task-item-text"
+        id="checkbox-list-label-1"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
+        >
+          TaskItem 1
+        </span>
+      </div>
+    </div>
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-21 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary MuiIconButton-edgeStart"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              aria-labelledby="checkbox-list-label-2"
+              checked={false}
+              className="PrivateSwitchBase-input-24"
+              data-indeterminate={false}
+              onChange={[Function]}
+              tabIndex={-1}
+              type="checkbox"
+            />
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+              />
+            </svg>
+          </span>
+        </span>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+        data-testid="task-item-text"
+        id="checkbox-list-label-2"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
+        >
+          TaskItem 2
+        </span>
+      </div>
+    </div>
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-21 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary MuiIconButton-edgeStart"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              aria-labelledby="checkbox-list-label-3"
+              checked={false}
+              className="PrivateSwitchBase-input-24"
+              data-indeterminate={false}
+              onChange={[Function]}
+              tabIndex={-1}
+              type="checkbox"
+            />
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+              />
+            </svg>
+          </span>
+        </span>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+        data-testid="task-item-text"
+        id="checkbox-list-label-3"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
+        >
+          TaskItem 3
+        </span>
+      </div>
+    </div>
+  </ul>
+</div>
 `;

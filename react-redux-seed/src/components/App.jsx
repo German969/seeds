@@ -1,7 +1,9 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import HomePage from './pages/Home';
+import { Provider } from 'react-redux';
+import store from '../store';
+import HomePage from './views/pages/Home';
 import useStyles from './App.styles';
 
 function App() {
@@ -9,13 +11,15 @@ function App() {
 
   return (
     <Container maxWidth="sm" className={classes.app}>
-      <Router>
-        <Switch>
-          <Route path="/">
-            <HomePage />
-          </Route>
-        </Switch>
-      </Router>
+      <Provider store={store}>
+        <Router>
+          <Switch>
+            <Route path="/">
+              <HomePage />
+            </Route>
+          </Switch>
+        </Router>
+      </Provider>
     </Container>
   );
 }

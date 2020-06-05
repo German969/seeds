@@ -29,13 +29,7 @@ const TaskList = ({ loading, tasks, onTaskChange }) => {
 
 TaskList.propTypes = {
   loading: PropTypes.bool,
-  tasks: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number,
-      title: PropTypes.string,
-      completed: PropTypes.bool
-    })
-  ).isRequired,
+  tasks: PropTypes.arrayOf(TaskItem.propTypes.todo).isRequired,
   onTaskChange: PropTypes.func.isRequired
 };
 

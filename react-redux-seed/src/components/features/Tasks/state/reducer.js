@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import actions from './actions';
 
-export const reducer = createSlice({
+export const slice = createSlice({
   name: 'tasks',
   initialState: {
     taskList: []
@@ -9,4 +9,6 @@ export const reducer = createSlice({
   reducers: actions
 });
 
-export default reducer.reducer;
+export const TASKS_KEY = slice.name;
+
+export default slice.reducer;
