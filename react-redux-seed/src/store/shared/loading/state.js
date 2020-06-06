@@ -1,7 +1,7 @@
 import { TASKS_KEY } from "../../../components/features/Tasks/state/reducer";
 
 export default {
-  errors: {
+  loading: {
     [TASKS_KEY]: {}
   }
 };

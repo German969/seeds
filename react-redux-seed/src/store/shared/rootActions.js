@@ -1,9 +1,6 @@
 import { slice } from './rootReducer';
 
-const {
-  setError
+export const {
+  setError,
+  setLoading
 } = slice.actions;
-
-export default {
-  setError
-};

@@ -2,11 +2,12 @@ import React from 'react';
 import {useSelector} from 'react-redux';
 import TaskList from '../../../features/Tasks/TaskList';
 import { selectTaskErrors } from '../../../features/Tasks/state';
+import taskKeys from '../../../features/Tasks/state/constants';
 
 const HomePage = () => {
   const errors = useSelector(selectTaskErrors);
 
-  if (errors.length) {
+  if (errors[taskKeys.FETCH_TASKS]) {
     return (<div>Error</div>);
   }
 

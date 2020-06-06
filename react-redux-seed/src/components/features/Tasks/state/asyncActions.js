@@ -1,14 +1,15 @@
 import ApiService from "../../../../services/ApiService";
-import { reducer } from "./reducer";
+import { setLoading } from '../../../../store/shared/rootActions';
+import { slice } from "./reducer";
 
-const { initialize } = reducer.actions;
+const { initialize } = slice.actions;
 
 const asyncActions = {
   fetchTasks: () => dispatch => {
-    // TODO loading true
+    dispatch(setLoading({ slice: 'tasks', key: 'FETCH_TASKS', state: true }));
     ApiService.getTodos().then((data) => {
       dispatch(initialize(data));
-      // TODO loading false
+      dispatch(setLoading({ slice: 'tasks', key: 'FETCH_TASKS', state: false }));
     });
   }
 };

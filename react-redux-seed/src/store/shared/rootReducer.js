@@ -1,14 +1,18 @@
 import { createSlice } from '@reduxjs/toolkit';
-import errorsState from "./errors/state";
-import errorActions from "./errors/actions";
+import errorsState from './errors/state';
+import errorActions from './errors/actions';
+import loadingState from './loading/state';
+import loadingActions from './loading/actions';
 
 export const slice = createSlice({
   name: 'root',
   initialState: {
-    ...errorsState
+    ...errorsState,
+    ...loadingState
   },
   reducers: {
-    ...errorActions
+    ...errorActions,
+    ...loadingActions
   }
 });
 

@@ -6,4 +6,4 @@ export const { toggle } = slice.actions;
 
 export const { fetchTasks } = asyncActions;
 
-export const { selectAllTasks, selectTaskErrors } = taskSelectors;
+export const { selectAllTasks, selectTaskErrors, selectTaskLoading } = taskSelectors;
