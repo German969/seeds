@@ -1,8 +1,8 @@
 import React from 'react';
 import {useSelector} from 'react-redux';
-import TaskList from '../../../features/Tasks/TaskList';
+import TaskList from '../../../features/Tasks/components/TaskList';
 import { selectTaskErrors } from '../../../features/Tasks/state';
-import taskKeys from '../../../features/Tasks/state/constants';
+import taskKeys from '../../../features/Tasks/constants';
 
 const HomePage = () => {
   const errors = useSelector(selectTaskErrors);

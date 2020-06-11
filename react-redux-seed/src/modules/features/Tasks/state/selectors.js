@@ -1,5 +1,4 @@
-import { createErrorSelector } from '../../../../store/shared/errors/selectors';
-import { createLoadingSelector } from "../../../../store/shared/loading/selectors";
+import { createErrorSelector, createLoadingSelector } from '../../../../store/rootSelectors';
 import { TASKS_KEY } from './reducer';
 
 const selectors = {

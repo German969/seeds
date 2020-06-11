@@ -1,4 +1,4 @@
-import { slice } from "./reducer";
+import {slice} from "./reducer";
 import asyncActions from "./asyncActions";
 import taskSelectors from "./selectors";
 

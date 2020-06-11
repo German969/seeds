@@ -1,4 +1,5 @@
 /* eslint-disable no-param-reassign */
+
 const actions = {
   initialize: (state, action) => {
     state.taskList = action.payload;

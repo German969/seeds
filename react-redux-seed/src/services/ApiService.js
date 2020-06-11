@@ -2,17 +2,31 @@ import axios from 'axios';
 
 const apiUrl = 'https://jsonplaceholder.typicode.com';
 
-export default class ApiService {
-  static getTodos() {
-    return this.request('todos', { method: 'get' });
+class ApiService {
+  static services = {};
+
+  static registerService(key, config) {
+    this.services[key] = config;
   }
 
-  static request(path, options) {
+  static registerServices(services) {
+    Object.entries(services).forEach(service => this.registerService(service[0], service[1]));
+  }
+
+  static call(serviceName) {
+    const serviceConfig = this.services[serviceName];
+
+    return this.request(serviceConfig);
+  }
+
+  static request({path, options}) {
     return axios({
       method: options.method,
       url: `${apiUrl}/${path}`
     })
-      .then((response) => response.data)
-      .catch((error) => console.log(error));
+      .then((response) => ({data: response.data, error: false}))
+      .catch((error) => ({data: null, error}));
   }
 }
+
+export default ApiService;
